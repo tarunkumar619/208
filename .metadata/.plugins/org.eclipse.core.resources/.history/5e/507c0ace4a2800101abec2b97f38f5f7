@@ -1,0 +1,6 @@
+package DAY4;
+
+public class SListNode {
+	int data;
+	SListNode next;
+}

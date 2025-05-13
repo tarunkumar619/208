@@ -1,0 +1,8 @@
+package LinkedListPractice;
+
+public interface ILinkedList {
+     public void addLast(product value);
+     public Integer deleteFirst(product value);
+     public void displayAll();
+     public void Update(product value);
+}

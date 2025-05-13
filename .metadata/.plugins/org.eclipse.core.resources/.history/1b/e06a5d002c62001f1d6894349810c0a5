@@ -1,0 +1,21 @@
+
+public class First_Class {
+
+	public static void main(String[] args) {
+		
+	  int age;  // decalre
+	  age=45;   // intailzation
+	  
+	  
+	  System.out.println(age);
+	  
+	  
+	  
+	  
+	  
+		
+		
+
+	}
+
+}

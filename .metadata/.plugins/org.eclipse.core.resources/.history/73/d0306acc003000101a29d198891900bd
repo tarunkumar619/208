@@ -1,0 +1,15 @@
+package LinkedListPractice;
+
+public class dNode {
+	product pro;
+	DListNode next;
+	DListNode previous;
+	
+	
+
+	public dNode(int data) {
+		this.data = data;
+		next = null;
+		previous = null;
+	}
+}

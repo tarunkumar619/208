@@ -1,0 +1,70 @@
+package LinkedListPractice;
+
+public class DoublyCircularLinkedList implements ILinkedList {
+	public dNode  dummy;
+	
+	public DoublyCircularLinkedList() { 
+	dummy=new dNode(null);
+	}
+	
+	
+	@Override
+	public void addLast(product pro) {
+	 	if(dummy.next==null && dummy.previous==null) {
+	 		dNode newnode = new dNode(pro);
+	 		dummy.next = newnode;
+	 		dummy.previous = newnode;
+	 		newnode.next =     dummy;
+	 		newnode.previous=  dummy;
+	 		return;
+	 	}  
+	 	
+	 	// general condition
+	 	dNode newnode = new dNode(pro); 
+	 	
+	 	
+	 	newnode.next = dummy;
+	 	newnode.previous =  dummy.previous;
+	 	dummy.previous.next=newnode;
+	 	dummy.previous = newnode;
+	 	
+	 	
+	 	
+		
+		
+	}
+
+	@Override
+	public product deleteFirst(product node) {
+		if(dummy.next==null&&dummy.previous==null)
+			return -1;
+		
+		
+		// one node node delete
+		if(dummy.next.next==null) {
+			 
+			
+			
+		}
+		
+			
+		
+		
+		
+	 		return null;
+	}
+
+	@Override
+	public void displayAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Update(product node) {
+		// TODO Auto-generated method stub
+		
+	}
+       
+		
+}

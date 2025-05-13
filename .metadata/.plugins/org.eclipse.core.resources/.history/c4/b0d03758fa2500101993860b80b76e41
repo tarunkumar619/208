@@ -1,0 +1,7 @@
+package DAY4;
+
+
+public interface SortedList {
+	void insert(int element);
+	void print();
+}

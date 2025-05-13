@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;DAY4&apos; to &apos;JAVA_Tarun/src/LinkedList&apos;&#x0D;&#x0A;- Original project: &apos;DAY4&apos;&#x0D;&#x0A;- Destination element: &apos;JAVA_Tarun/src/LinkedList&apos;&#x0D;&#x0A;- Original element: &apos;DAY4/src/DAY4&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=JAVA_Tarun/src&lt;LinkedList" element1="/src&lt;DAY4" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1746296161656" version="1.0"/>
+</session>

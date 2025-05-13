@@ -1,0 +1,43 @@
+package StackPractice;
+
+import QueueProblems.IQueue;
+
+public class Queue_Implement_using_Stack  implements IQueue {
+	public ResizeableStack stack1;
+	public ResizeableStack stack2;
+	
+	
+	public Queue_Implement_using_Stack() {
+		this.stack1 = new ResizeableStack();
+		this.stack2 = new ResizeableStack();
+	}
+
+	@Override
+	public void enqueue(int value) {
+		
+		
+	}
+
+	@Override
+	public int dequeue() {
+		
+		return 0;
+	}
+
+	@Override
+	public int peek() {
+	
+		return 0;
+	}
+
+	@Override
+	public boolean empty() {
+	
+		
+		
+		
+		return false;
+	}
+   
+     
+}

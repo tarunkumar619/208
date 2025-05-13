@@ -1,0 +1,16 @@
+
+public class First_Class {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("hello my name is tarun kumar kashyap");
+		
+		
+		System.out.println("and harsh is learning java from tarun");
+		
+		
+
+	}
+
+}

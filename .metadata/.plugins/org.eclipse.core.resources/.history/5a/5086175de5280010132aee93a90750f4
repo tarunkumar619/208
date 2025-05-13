@@ -1,0 +1,29 @@
+package StackPractice;
+
+public class Queue_Implement_using_Stack implements IStack {
+
+	@Override
+	public void push(int value) {
+		
+		
+	}
+
+	@Override
+	public int pop() {
+		
+		return 0;
+	}
+
+	@Override
+	public int peek() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean empty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+             
+}

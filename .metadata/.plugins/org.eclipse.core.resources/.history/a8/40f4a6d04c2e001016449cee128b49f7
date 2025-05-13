@@ -1,0 +1,74 @@
+package day8.ads.java;
+
+import BinaryTree.BTNode;
+
+public class BST {
+	BTNode root;
+	
+	public BST() {
+		root = null;
+	}
+
+	public void insert(int element) {
+		BTNode newNode = new BTNode(element);
+		
+		if (root == null) {
+			root = newNode;
+			return;
+		}
+
+		BTNode current = root;
+		while (current != null) {
+			if (element < current.data) {
+				if (current.leftChild == null) {
+					current.leftChild = newNode;
+					return; // Or break the loop.
+				}
+				current = current.leftChild;
+			} else {
+				if (current.rightChild == null) {
+					current.rightChild = newNode;
+					return; // Or break the loop.
+				}
+				current = current.rightChild;
+			}
+		}
+	}
+	
+	public boolean search(int element) {
+		BTNode current = root;
+		
+		while (current != null) {
+			if (element == current.data) {
+				return true;
+			}
+			
+			if (element < current.data) {
+				current = current.leftChild;
+			} else {
+				current = current.rightChild;
+			}
+		}
+
+		return false;
+	}
+
+	private void printUsingInorder(BTNode root) {
+		if (root == null) {
+			return;
+		}
+
+		if (root.leftChild != null) {
+			printUsingInorder(root.leftChild);
+		}
+
+		System.out.print(root.data + " ");
+
+		if (root.rightChild != null) {
+			printUsingInorder(root.rightChild);
+		}
+	}
+	public void printUsingInorder() {
+		printUsingInorder(root);
+	}
+}

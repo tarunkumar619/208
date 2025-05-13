@@ -1,0 +1,25 @@
+
+public class First_Class {
+
+	public static void main(String[] args) {
+		
+	  int age;  // decalre
+	  age=45;   // intailzation
+	  
+	  byte x;   //  -127  to 128
+	  x=6;
+	  
+	  
+	  System.out.println(age);
+	  
+	  System.out.println(x);
+	  
+	  
+	  
+	  
+		
+		
+
+	}
+
+}
