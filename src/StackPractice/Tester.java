@@ -1,0 +1,22 @@
+package StackPractice;
+import QueueProblems.IQueue;
+public class Tester {
+
+	public static void main(String[] args) {
+		IQueue q = new Queue_Implement_using_Stack();
+
+        q.enqueue(10);
+        q.enqueue(20);
+        q.enqueue(30);
+
+        System.out.println(q.dequeue()); // 10
+        System.out.println(q.peek());    // 20
+        System.out.println(q.dequeue()); // 20
+        System.out.println(q.empty());   // false
+        System.out.println(q.dequeue()); // 30
+        System.out.println(q.empty());   // true
+        q.dequeue(); 
+
+	}
+
+}
