@@ -2,8 +2,7 @@ package StackPractice;
 
 import java.util.LinkedList;
 import java.util.Stack;
-	
-import QueueProblems.IQueue;
+
 
 public class Queue_Implement_using_Stack  implements IQueue {
 	public Stack<Integer> stack1;
@@ -50,11 +49,5 @@ public class Queue_Implement_using_Stack  implements IQueue {
 	    return stack1.peek();
 	}
 
-	@Override
-	public boolean empty() {
-	  
-		return stack1.isEmpty();
-	}
-   
-     
+
 }

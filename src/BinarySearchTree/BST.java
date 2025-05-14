@@ -12,7 +12,7 @@ public class BST {
 	public void insert(int element) {
 		BTNode newNode = new BTNode(element);
 		
-		if (root == null) {
+		if (root == null) { 
 			root = newNode;
 			return;
 		}
@@ -72,6 +72,20 @@ public class BST {
 		printUsingInorder(root);
 	}
 	
+	
+//	Finding the target node using traversal with parent and current pointers.
+//
+//	Leaf node deletion: Updates the parent’s child reference to null.
+//
+//	Single-child node deletion: Links the parent to the target’s only child.
+//
+//	Two-child node deletion:
+//
+//	Finds the inorder successor (leftmost node in the right subtree).
+//
+//	Swaps data with the successor.
+//
+//	Deletes the successor (handling leaf and single-child cases for the successor).
 	
 	
 

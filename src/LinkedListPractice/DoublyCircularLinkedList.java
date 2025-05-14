@@ -19,7 +19,7 @@ public class DoublyCircularLinkedList implements ILinkedList {
 	 		return;
 	 	}  
 	 	
-	 	// general condition
+	 	// genral condition
 	 	dNode newnode = new dNode(pro); 
 	 	
 	 	
@@ -49,7 +49,7 @@ public class DoublyCircularLinkedList implements ILinkedList {
 		
 	
 		
-		//genral case
+		//genal case
 		product delpro=dummy.next.pro;
 		dummy.next= dummy.next.next;
 		dummy.next.previous=dummy;
