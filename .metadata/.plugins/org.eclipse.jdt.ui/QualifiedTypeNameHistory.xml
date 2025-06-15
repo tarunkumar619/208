@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="QueueProblems.IQueue"/>
+    <fullyQualifiedTypeName name="LinkedListPractice.product"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

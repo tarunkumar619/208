@@ -1,8 +1,0 @@
-package LinkedListPractice;
-
-public interface ILinkedList {
-     public void addLast(Integer value);
-     public Integer deleteFirst(Integer value);
-     public void displayAll();
-     public void Update(Integer value);
-}

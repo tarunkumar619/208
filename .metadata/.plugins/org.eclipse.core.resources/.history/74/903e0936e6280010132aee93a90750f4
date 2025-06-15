@@ -1,5 +1,0 @@
-package QueueProblems;
-
-public interface IQueue {
-
-}

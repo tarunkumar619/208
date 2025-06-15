@@ -1,6 +1,0 @@
-package DAY4.copy;
-
-public class SListNode {
-	int data;
-	SListNode next;
-}

@@ -1,8 +1,0 @@
-package StackPractice;
-
-public interface IStack {
-      public void push();
-      public int  pop();
-      public  int peek();
-      public boolean  empty();
-}
